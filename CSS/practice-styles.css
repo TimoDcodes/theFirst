@@ -1,0 +1,67 @@
+body {
+    background: #e4bc84;
+    font-family: Tahoma, Arial, sans-serif;
+    
+}
+
+h1 {
+    color: black;
+    font: 32px Garamond, Helvetica, serif;
+    border: brown solid 5px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border: brown dashed 10px;
+    margin: auto;
+}
+
+thead {
+    text-align: justify;
+    
+}
+
+label {
+    display: block;
+    
+}
+
+#submit-btn {
+    display: block;
+    margin: auto;
+    width: auto;
+    
+}
+textarea{
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding-bottom: 15px;
+}
+ #name{
+    width: 50%;
+    margin:auto;
+    display:block; 
+    text-align: center; 
+    padding: auto
+    ;
+}
+label{
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center; 
+    padding:auto;
+}
+#favItem{
+    margin-left: 
+    
+}
+#chxWaff, #cofCake, #bluePan {
+    margin-left:750px;
+    display: inline;
+}
