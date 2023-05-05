@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #nav-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        /* other styles as needed */
+      }
+      @media only screen and (max-width: 768px) {
+        header img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      .form {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://i.ibb.co/HN40Nhr/Logo-high.png"
+        alt="Company Logo"
+        id="header-img"
+      />
+      <h1>Company Name</h1>
+      <nav id="nav-bar">
+        <a href="#company" class="nav-link">Company</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#prices" class="nav-link">Prices</a>
+      </nav>
+    </header>
+    <form
+      id="form"
+      action="https://www.freecodecamp.com/email-submit"
+      method="post"
+    >
+      <label for="#email">Enter Your Email for More Information</label><br />
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter Your Email"
+        name="email"
+      />
+      <input type="submit" id="submit" />
+    </form>
+    <section id="company"></section>
+    <ul>
+      <img src="" alt="pic for point1" />----Point One---
+    </ul>
+    <ul>
+      <img src="" alt="pic for point2" />------Point Two-----
+    </ul>
+    <ul>
+      <img src="" alt="pic for point3" />------Point Three-----
+    </ul>
+    <section id="services">
+      <video
+        src="https://www.youtube.com/"
+        id="video"
+        alt="Video of Services"
+      ></video>
+    </section>
+    <section id="prices"></section>
+  </body>
+</html>

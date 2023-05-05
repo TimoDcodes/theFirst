@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @media (max-width: 767px) {
+        /* Adjust layout and font sizes for smaller mobile devices */
+        /* For example: */
+        .main-section {
+          flex-direction: column;
+        }
+        .nav {
+          flex-direction: column;
+        }
+        .nav-link {
+          margin: 10px 0;
+        }
+        .code {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <main id="main-doc">
+    <nav id="navbar">
+      <header>Web Development Basics</header>
+      <a href="#Web_Development" class="nav-link">Web Development</a>
+      <a href="#Html_Basics" class="nav-link">HTML Basics</a>
+      <a href="#CSS_Basics" class="nav-link">CSS Basics</a>
+      <a href="#Javascript_Basics" class="nav-link">Javascript Basics</a>
+      <a href="#Web_Development_Importance" class="nav-link"
+        >Web Development Importance</a
+      >
+    </nav>
+    <section class="main-section" id="Web_Development">
+      <header>Web Development</header>
+      <p>
+        Web development is the process of creating, building, and maintaining
+        websites for the internet. It involves a combination of programming
+        languages, design skills, and technical knowledge to bring a website to
+        life.
+      </p>
+      <p>
+        Web development encompasses several different areas, including front-end
+        development, back-end development, and full-stack development. Front-end
+        development focuses on creating the visual elements of a website that
+        users see and interact with, such as layout, typography, and navigation.
+        Back-end development involves building the server-side components of a
+        website, such as databases and servers. Full-stack development involves
+        working on both front-end and back-end development, creating a seamless
+        user experience for the website's visitors.
+      </p>
+      <p>
+        Web development is an essential component of the digital world, powering
+        everything from e-commerce sites to social media platforms. It requires
+        a deep understanding of web technologies, programming languages, and
+        user experience design, making it an exciting and constantly evolving
+        field to be a part of.
+      </p>
+    </section>
+    <section class="main-section" id="Html_Basics">
+      <header>Html Basics</header>
+      <p>
+        HTML, which stands for HyperText Markup Language, is the foundation of
+        every webpage on the internet. It is a markup language that is used to
+        structure content on the web, allowing users to view and interact with
+        web pages. HTML is an essential skill for any web developer, and it is
+        easy to learn the basics. Here are two essential HTML concepts:
+      </p>
+      <li>
+        Tags: HTML consists of a series of tags that are used to structure
+        content on a web page. Tags are surrounded by angled brackets, and they
+        usually come in pairs, with the opening tag preceding the content and
+        the closing tag following it. For example, to create a paragraph, we
+        would use the tag, like this:
+        <br />
+      </li>
+      <code>&ltp&gt This is a paragraph.&lt/p&gt </code>
+      <li>
+        Attributes: HTML tags can also have attributes, which provide additional
+        information about the tag. Attributes are added to the opening tag and
+        consist of a name and a value, separated by an equals sign. For example,
+        to add a link to a web page, we would use the &lta&gt tag, with the
+        <bold>href</bold> attribute to specify the URL of the page we want to
+        link to, like this:
+      </li>
+      <code
+        >&lta&gt href="https://www.example.com"&gtThis is a link.&lt/a&gt
+      </code>
+      <br />
+    </section>
+    <section class="main-section" id="CSS_Basics">
+      <header>CSS Basics</header>
+      <p>
+        CSS, or Cascading Style Sheets, is a language used to describe how HTML
+        elements should be displayed on a webpage. By adding CSS to an HTML
+        document, you can control the layout, color, font, and other visual
+        aspects of the content.
+        <br />
+        One of the key concepts in CSS is the use of selectors to target
+        specific HTML elements. Here's an example of a CSS rule that targets all
+        paragraph elements on a webpage:
+      </p>
+      <code>
+        p {<br />
+        font-size: 16px;<br />
+        color: #333;<br />
+        line-height:1.5;<br />
+        }
+      </code>
+      <p>
+        This code sets the font size to 16 pixels, the text color to a dark gray
+        (#333), and the line height to 1.5 times the font size for all paragraph
+        elements.
+      </p>
+      <p>
+        Another important concept in CSS is the use of cascading and inheritance
+        to apply styles to different elements. For example, you can define a
+        style for a parent element and have it apply to all of its child
+        elements as well. Here's an example of a CSS rule that targets a
+        specific class:
+      </p>
+      <code
+        >.highlight {<br />
+        background-color: yellow;<br />
+        color: black;<br />
+        font-weight: bold;<br />
+        }
+      </code>
+      <p>
+        This code sets the background color to yellow, the text color to black,
+        and the font weight to bold for all elements with the class "highlight".
+        This class can then be applied to any HTML element on the page, such as
+        a paragraph or heading, to make it stand out.
+      </p>
+      <li>
+        CSS selectors can target elements by tag name, class, ID, or other
+        attributes
+      </li>
+      <li>
+        Cascading and inheritance allow styles to be applied to multiple
+        elements at once
+      </li>
+    </section>
+    <section class="main-section" id="Javascript_Basics">
+      <header>Javascript Basics</header>
+      <p>
+        JavaScript is a high-level, dynamic, and interpreted programming
+        language that is widely used for creating interactive and dynamic web
+        pages. It is a client-side scripting language that is embedded in HTML
+        pages and runs in the browser. One of the fundamental features of
+        JavaScript is its ability to manipulate the Document Object Model (DOM),
+        which is the structure of the web page. With JavaScript, you can change
+        the content, styles, and behavior of web pages in real-time. JavaScript
+        is used to build a wide range of web applications, including games,
+        animations, and dynamic forms.
+      </p>
+      <p>
+        One of the basic constructs in JavaScript is the function. Functions are
+        blocks of code that can be called and executed multiple times, with
+        different parameters. Here's an example of a simple JavaScript function
+        that takes two parameters and returns their sum:
+      </p>
+      <code
+        >function addNumbers(num1, num2) {<br />
+        return num1 + num2;<br />
+        } <br />
+        <br />
+        console.log(addNumbers(2, 3)); // outputs 5
+      </code>
+      <p>
+        In this example, we define a function named addNumbers that takes two
+        parameters num1 and num2. Inside the function, we use the return
+        statement to return the sum of the two numbers. Finally, we call the
+        function with the arguments 2 and 3 and print the result to the console
+        using the console.log function. Functions are an essential part of
+        JavaScript and are used extensively in programming.
+      </p>
+      <p>
+        Here's an example of how to use a for loop to iterate over an array of
+        numbers and print their values to the console:
+      </p>
+      <code
+        >const numbers = [1, 2, 3, 4, 5];<br />
+        <br />
+        for (let i = 0; i < numbers.length; i++) {<br />
+        console.log(numbers[i]);<br />
+        }
+      </code>
+      <p>
+        In this example, we define an array of numbers and use a for loop to
+        iterate over the array. The for loop has three parts: the
+        initialization, the condition, and the increment. The initialization
+        sets the loop variable i to 0, the condition checks if i is less than
+        the length of the numbers array, and the increment increases i by 1
+        after each iteration. Inside the loop, we print the value of each
+        element in the array to the console using console.log. Loops are another
+        fundamental construct in JavaScript and are used to repeat a block of
+        code multiple times.
+      </p>
+    </section>
+    <section class="main-section" id="Web_Development_Importance">
+      <header>Web Development Importance</header>
+      <li>
+        Enhancing online presence: In today's digital world, having an online
+        presence is crucial for any business or individual. Web development
+        helps in creating and maintaining a website that represents the brand or
+        individual on the internet, which can attract potential customers,
+        clients, or followers.
+      </li>
+      <li>
+        Improving accessibility: Web development also helps in making
+        information accessible to a wider audience. With the help of responsive
+        design and other accessibility features, websites can be easily accessed
+        on different devices and platforms, making it easier for users to obtain
+        the desired information.
+      </li>
+      <li>
+        Enabling innovation: Web development has also paved the way for
+        innovation and new possibilities in various fields. For instance,
+        e-commerce websites have revolutionized the way we shop, while
+        educational websites have enabled online learning opportunities.
+        Additionally, web development has also led to the development of new
+        technologies and tools, such as web applications and mobile apps, which
+        have become an integral part of our daily lives.
+      </li>
+    </section>
+  </main>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @media (min-width: 768px) {
+        /* Your CSS styles for screens with a minimum width of 768px and above */
+        #projects {
+          display: flex;
+          flex-direction: row;
+        }
+
+        .profile-image {
+          margin-right: 20px;
+        }
+
+        .profile-name {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <a href="#welcome-section">Welcome</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+    <section id="welcome-section">
+      <h1>Welcome to</h1>
+      <img
+        src="https://i.ibb.co/HN40Nhr/Logo-high.png"
+        alt="TimoDCodes Logo"
+        id="welcome-image"
+      />
+    </section>
+    <section id="projects">
+      <label for="#projects">Projects</label>
+      <div class="project-tile"></div>
+      <a href=""></a>
+    </section>
+    <section id="certifications">
+      <label for="#certifications">Paperwork</label>
+      <br />
+      <img
+        src="https://i.ibb.co/hVgDkTs/Screenshot-2023-05-04-202930.png"
+        alt="Freecodecamp Web Responsive Certificate"
+      />
+
+      <img
+        src="https://i.ibb.co/zPppgXF/Course-Complete.png"
+        alt="Nu-Camp-Course-Complete"
+      />
+    </section>
+    <a href="https://github.com/TimoDcodes" id="profile-link" target="_blank">
+      Check out my other work!!
+    </a>
+  </body>
+</html>

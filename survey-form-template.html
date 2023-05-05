@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Survey Template</title>
+    <link
+      rel="stylesheet"
+      href="Portfolio Projects\Portfolio Projects CSS\survey-form-template.css"
+    />
+    <style>
+      body{
+        text-align: center;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Product Survey Form</h1>
+    <p id="description">This is a basic template for a general product.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" placeholder="Enter Your Name" required />
+      <br>
+      <label for="email" id="email-label">Email</label><br>
+      <input
+        type="email"
+        id="email"
+        required
+        placeholder="Enter Your Email Address"
+      />
+      <br>
+      <label for="number" id="number-label">Please Enter Your Age</label>
+      <input
+        type="number"
+        id="number"
+        min="1"
+        max="199"
+        placeholder="Age"
+        value="age"
+      />
+      <label for="dropdown">What is Your Role?</label>
+      <select id="dropdown">
+        <option value="">Buyer</option>
+        <option value="">Seller</option>
+      </select>
+      <div id="rating-feedback">
+        <label for="rating-feedback">How Would You Rate the Product?</label>
+        <input type="radio" id="good" name="rating" value="good" />
+        <label for="good">3</label>
+        <input type="radio" name="rating" id="mid" value="mid" />
+        <label for="mid">2</label>
+        <input type="radio" name="rating" id="bad" value="bad" />
+        <label for="bad">1</label>
+      </div>
+      <div id="You-heard-where">
+        <label for="You-heard-where"
+          >Where Did You Hear About the Product?</label
+        >
+        <input type="checkbox" name="" id="paper" value="paper" />
+        <label for="paper">Newspaper</label>
+        <input type="checkbox" name="" id="online" value="online" />
+        <label for="online">Online</label>
+        <input
+          type="checkbox"
+          name=""
+          id="word-of-mouth"
+          value="word-of-mouth"
+        />
+        <label for="word-of-mouth">From a Friend</label>
+      </div>
+      <label for="comments">Please Leave Additional Comments Below</label><br />
+      <textarea name="" id="comments" cols="30" rows="10">
+Tell us how you feel.</textarea
+      >
+      <br />
+      <input type="submit" value="submit" id="submit" />
+    </form>
+  </body>
+</html>
